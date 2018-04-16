@@ -1,0 +1,8 @@
+
+gcd(X,Y):-
+	(   X>Y -> R is mod(X,Y),
+	gcd(Y,R),write(R) );
+	X<Y -> gcd(Y,X)
+	.
+
+

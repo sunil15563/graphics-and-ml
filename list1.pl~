@@ -1,0 +1,8 @@
+sum_list([H|T],X):-
+
+    S is S+X1;
+
+sum_list(T,X1)
+
+
+.

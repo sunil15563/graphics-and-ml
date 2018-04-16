@@ -1,0 +1,13 @@
+fabo(N,T,A,B):-
+
+(	N>T -> T1 is T+1,
+	C is A+B,
+	A is B,
+	B is C,
+	fabo(N,T1,A,B)
+);
+ N=T ->	C is A+B,
+ write(C)
+
+.
+
